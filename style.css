@@ -1,0 +1,209 @@
+/** Mobile first design */
+/**
+The css(flex) for the body tag below helps center the article tag.
+The full form of VH is viewport height. It works like the percentage unit as well.
+The zero margin is for removing the default spacing around the aryicle tag.
+*/
+body {
+    background-color: hsl(30, 54%, 90%); 
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+article{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 35px;
+    margin: 5% 7% 5% 7%;
+}
+
+#header p{
+    margin: 5% 6% 7% 7%;
+}
+
+h1, h2{
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+}
+
+strong{
+    color: hsl(24, 5%, 18%);
+}
+
+#preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 18px;
+    margin: 0 7% 0 7%;
+    padding: 1% 7% 2% 7%;
+}
+
+h3{
+    color: hsl(332, 51%, 32%);
+}
+
+ul{
+    margin-left: -5%;
+    color: hsl(30, 10%, 34%);
+}
+
+ul p{
+    margin: 4%;
+}
+
+ol{
+    margin-left: -5%;
+    color: hsl(332, 51%, 32%);
+    font-weight: 900;
+}
+
+ol p{
+    font-weight: 400;
+    margin-left: 4%;
+}
+
+#ingredients{
+    margin: 0 7% 0 7%;
+}
+
+#instruction{
+    margin: 0 7% 0 7%;
+}
+
+#nutrition{
+    margin: 0 7% 0 7%;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+}
+
+/**
+em is a unit of measurement which indicates size relative to the size of the font. 
+1em means "equal to the current font size", and 2em means 2 times the current font size.
+*/
+hr {
+    background: hsl(30, 18%, 87%);
+    border: none;
+    height: 1px;
+    margin-top: 2em;
+}
+
+#nutrition p{
+    margin: 3% auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+table :last-child {
+    border-bottom: none;
+}
+
+tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td {
+    color: hsl(30, 10%, 34%);
+    padding: 0.75em 0.75em 0.75em 2em;
+}
+
+.bold{
+    color: hsl(14, 45%, 36%);
+    font-weight: 900;
+}
+
+/**
+min-width hear means the following css will apply to only screen with the width
+of 600px or more. 
+*/
+@media only screen and (min-width: 600px){
+    article{
+        max-width: 50%;
+        margin: 10% 0;
+        border-radius: 18px;
+    }
+
+    img{
+        margin: 5% 5% 0% 5%;
+        max-width: 90%;
+        border-radius: 18px;
+    }
+    
+    h1{
+        margin: 5% 0% 3% 5%;
+        font-size: 37px;
+    }
+
+    h2{
+        font-size: 27px;
+    }
+
+    p{
+        font-size: 14.5px;
+    }
+    
+    #header p{
+        margin: 0% 7% 5% 5%;
+    }
+    
+    #preparation{
+        margin: 0 5%;
+        padding: 1% 0% 1% 6%;
+    }
+    
+    h3{
+        margin-left: -2%;
+    }
+    
+    #ingredients{
+        margin: 0 5%;
+    }
+
+    #ingredients ul{
+        margin-left: -2.5%;
+    }
+    
+    #instruction{
+        margin: 0 5%;
+    }
+
+    ol{
+        margin-left: -2.5%;
+        padding-right: 3%;
+    }
+    
+    #nutrition{
+        margin: 0 5%;
+    }
+    
+    td {
+        padding: 0.75em 0.75em 0.75em 1em;
+    }
+    
+    .bold{
+        margin-left: -10%;
+    }
+}
