@@ -23,7 +23,6 @@ Good challenge to work on for css basics, practice semantic html and mobile firs
 
 ### Links
 
-- Solution URL: [Frontend]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/recipe-page-main-mobile-first-appraoch-with-css-flex-04WNs0Th2X))
 - Live Site URL: ([https://omelette-recipe-doc.netlify.app](https://omelette-recipe-doc.netlify.app/))
 
 ## My process
