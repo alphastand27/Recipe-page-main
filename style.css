@@ -13,7 +13,7 @@ body {
     margin: 0;
 }
 
-article{
+main{
     background-color: hsl(0, 0%, 100%);
     max-width: 375px;
     display: flex;
@@ -140,7 +140,7 @@ min-width hear means the following css will apply to only screen with the width
 of 600px or more. 
 */
 @media only screen and (min-width: 600px){
-    article{
+    main{
         max-width: 50%;
         margin: 10% 0;
         border-radius: 18px;
