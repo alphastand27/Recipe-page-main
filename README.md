@@ -23,8 +23,8 @@ Good challenge to work on for css basics, practice semantic html and mobile firs
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: ([https://your-live-site-url.com](https://omelette-recipe-doc.netlify.app/))
+- Solution URL: [Frontend]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/recipe-page-main-mobile-first-appraoch-with-css-flex-04WNs0Th2X))
+- Live Site URL: ([https://omelette-recipe-doc.netlify.app](https://omelette-recipe-doc.netlify.app/))
 
 ## My process
 Started with working on the semantic html which lead to doing some googling about which best to use and where. Then moved on to the css, which was the first time taking the mobile first approach which helped on understanding the benefits of the approach talked about online.
